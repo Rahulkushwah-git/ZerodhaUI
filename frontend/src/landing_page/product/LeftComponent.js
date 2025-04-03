@@ -6,7 +6,7 @@ function LeftComponent({ imageURL, productName, productDescription, tryDemo, lea
             <div className='row'>
                 <div className='col-1'></div>
                 <div className='col-5 p-3'>
-                    <img src={imageURL} />
+                    <img src={process.env.PUBLIC_URL + imageURL} alt="image" />
                 </div>
                 <div className='col-1'></div>
                 <div className='col-4 p-5 mb-5 mt-5'>
@@ -18,8 +18,8 @@ function LeftComponent({ imageURL, productName, productDescription, tryDemo, lea
                     </div>
                     <div>
                         <a href={coin} style={{textDecoration:"none" , marginRight:"20%"}}>Coin <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        <a href={googlePlay} style={{textDecoration:"none" , marginRight:"10%"}}><img src="Media/googlePlayBadge.svg" /></a>
-                        <a href={appleStore} style={{textDecoration:"none" , marginLeft:"10%"}}><img src="Media/appstoreBadge.svg" /></a>
+                        <a href={googlePlay} style={{textDecoration:"none" , marginRight:"10%"}}><img src={process.env.PUBLIC_URL + "Media/googlePlayBadge.svg"} alt="image" /></a>
+                        <a href={appleStore} style={{textDecoration:"none" , marginLeft:"10%"}}><img src={process.env.PUBLIC_URL + "Media/appstoreBadge.svg"} alt="image" /></a>
                     </div>
                 </div>
                 <div className='col-1'></div>

@@ -9,7 +9,7 @@ function Universes() {
                 <div className="col-3 card account-type">
                     <div className="row no-gutters">
                         <div className="col-3">
-                            <img src="./Media/individual.svg" alt="Avatar" className="avatar-img rounded-circle" />
+                            <img src={process.env.PUBLIC_URL + "./Media/individual.svg"} alt="Avatar" className="avatar-img rounded-circle" />
                         </div>
                         <div className="col-9">
                             <div className="card-body">
@@ -23,7 +23,7 @@ function Universes() {
                 <div className="col-3 card account-type">
                     <div className="row no-gutters">
                         <div className="col-3">
-                            <img src="./Media/huf.svg" alt="Avatar" className="avatar-img rounded-circle" />
+                            <img src={process.env.PUBLIC_URL + "./Media/huf.svg"} alt="Avatar" className="avatar-img rounded-circle" />
                         </div>
                         <div className="col-9">
                             <div className="card-body">
@@ -37,7 +37,7 @@ function Universes() {
                 <div className="col-3 card account-type">
                     <div className="row no-gutters">
                         <div className="col-3">
-                            <img src="./Media/nri.svg" alt="Avatar" className="avatar-img rounded-circle" />
+                            <img src={process.env.PUBLIC_URL + "./Media/nri.svg"} alt="Avatar" className="avatar-img rounded-circle" />
                         </div>
                         <div className="col-9">
                             <div className="card-body">
@@ -52,7 +52,7 @@ function Universes() {
                 <div className="col-3 card account-type">
                     <div className="row no-gutters">
                         <div className="col-3">
-                            <img src="./Media/minor.svg" alt="Avatar" className="avatar-img rounded-circle" />
+                            <img src={process.env.PUBLIC_URL + "./Media/minor.svg"} alt="Avatar" className="avatar-img rounded-circle" />
                         </div>
                         <div className="col-9">
                             <div className="card-body">
@@ -66,7 +66,7 @@ function Universes() {
                 <div className="col-3 card account-type">
                     <div className="row no-gutters">
                         <div className="col-3">
-                            <img src="./Media/corporate.svg" alt="Avatar" className="avatar-img rounded-circle" />
+                            <img src={process.env.PUBLIC_URL + "./Media/corporate.svg"} alt="Avatar" className="avatar-img rounded-circle" />
                         </div>
                         <div className="col-9">
                             <div className="card-body">

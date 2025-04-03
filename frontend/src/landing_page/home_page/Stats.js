@@ -16,7 +16,7 @@ function Stats() {
                     <p className='text-muted'>With initiatives like <a href="https://support.zerodha.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge">Nudge</a> and <a href="https://support.zerodha.com/category/console/profile/killswitch/articles/what-is-the-kill-switch">Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money .</p>
                 </div>
                 <div className='col-6 p-5 mb-5'>
-                    <img src="Media/ecosystem.png" style={{width:"90%"}}/>
+                    <img src={process.env.PUBLIC_URL + "Media/ecosystem.png"} alt="image" style={{width:"90%"}}/>
                     <div className='text-center'>
                         <a className='mx-4' href=''>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                         <a className='mx-4' href=''>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
