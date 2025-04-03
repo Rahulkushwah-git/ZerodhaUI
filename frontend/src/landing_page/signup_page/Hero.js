@@ -10,7 +10,7 @@ function Hero() {
             <div className='row'>
                 <div className='col-1 mb-5 p-5 text-center'></div>
                 <div className='col-5 mb-5 text-center'>
-                    <img src={process.env.PUBLIC_URL + 'Media/signup.svg'} alt='Sign-up illustration' />
+                    <img src={`${process.env.PUBLIC_URL}/Media/signup.svg`} alt='Sign-up illustration' />
                 </div>
                 <div className='col-4 p-5 mb-5'>
                     <h3>Signup now</h3>
@@ -28,7 +28,7 @@ function Hero() {
             <div className='row mt-5 mb-5 p-5'>
                 <div className='col-1 p-2'></div>
                 <div className='col-1 p-2'>
-                    <img src={process.env.PUBLIC_URL + './Media/stocks.svg'} alt='Stocks' />
+                    <img src={`${process.env.PUBLIC_URL}/Media/stocks.svg`} alt='Stocks' />
                 </div>
                 <div className='col-1'></div>
                 <div className='col-3'>
@@ -36,7 +36,7 @@ function Hero() {
                     <p className='text-muted'>Invest in all exchange-listed securities</p>
                 </div>
                 <div className='col-1'>
-                    <img src={process.env.PUBLIC_URL + './Media/mf.svg'} alt='Mutual Funds' />
+                    <img src={`${process.env.PUBLIC_URL}/Media/mf.svg`} alt='Mutual Funds' />
                 </div>
                 <div className='col-1'></div>
                 <div className='col-3 p-2'>
@@ -47,7 +47,7 @@ function Hero() {
                 <div className='row mt-5'></div>
                 <div className='col-1 p-2'></div>
                 <div className='col-1 p-2'>
-                    <img src={process.env.PUBLIC_URL + './Media/ipo.svg'} alt='IPO' />
+                    <img src={`${process.env.PUBLIC_URL}/Media/ipo.svg`} alt='IPO' />
                 </div>
                 <div className='col-1'></div>
                 <div className='col-3'>
@@ -55,7 +55,7 @@ function Hero() {
                     <p className='text-muted'>Invest in all exchange-listed securities</p>
                 </div>
                 <div className='col-1'>
-                    <img src={process.env.PUBLIC_URL + './Media/fo.svg'} alt='Futures & Options' />
+                    <img src={`${process.env.PUBLIC_URL}/Media/fo.svg`} alt='Futures & Options' />
                 </div>
                 <div className='col-1'></div>
                 <div className='col-3 p-2'>
@@ -73,7 +73,7 @@ function Hero() {
                 </div>
                 <div className='row p-5'>
                     <div className='col-6'>
-                        <img src={process.env.PUBLIC_URL + './Media/steps.svg'} alt="Steps illustration" />
+                        <img src={`${process.env.PUBLIC_URL}/Media/steps.svg`} alt="Steps illustration" />
                     </div>
                     <div className='col-6 p-5'>
                         <ol style={{ height: "100%" }}>
@@ -86,7 +86,7 @@ function Hero() {
                 {/* Benefits Section */}
                 <div className='row benefits p-5'>
                     <div className='col-6'>
-                        <img style={{width:"80%"}} src={process.env.PUBLIC_URL + './Media/benefits.svg'} alt="Benefits illustration" />
+                        <img style={{width:"80%"}} src={`${process.env.PUBLIC_URL}/Media/benefits.svg`} alt="Benefits illustration" />
                         <h3 className='text-center'>Benefits of opening a Zerodha demat account</h3>
                     </div>
                     <div className='col-6'>

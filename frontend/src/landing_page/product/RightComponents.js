@@ -13,7 +13,7 @@ function RightComponents({ imageURL, productName, productDescription, tryDemo, l
                 </div>
                 <div className='col-1'></div>
                 <div className='col-5'>
-                    <img src={process.env.PUBLIC_URL + imageURL} alt="image"/>
+                    <img src={`${process.env.PUBLIC_URL}imageURL`} alt="image"/>
                 </div>
 
             </div>

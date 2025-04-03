@@ -5,7 +5,7 @@ function Team() {
         <div className='container border-top'>
             <div className='row'>
                 <div className='col p-5 mt-5 mb-5 text-muted text-center'>
-                    <img src={process.env.PUBLIC_URL + 'Media/RahulKushwah.jpeg'}alt="image" style={{width:"50%",borderRadius:"50%"}}/>
+                    <img src={`${process.env.PUBLIC_URL}Media/RahulKushwah.jpeg`}alt="image" style={{width:"50%",borderRadius:"50%"}}/>
                     <h3>Rahul Kushwah</h3>
                     <p>Developer</p>
                 </div>
