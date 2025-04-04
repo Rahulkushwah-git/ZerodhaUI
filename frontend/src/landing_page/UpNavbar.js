@@ -7,7 +7,7 @@ function UpNavbar() {
             <nav class="navbar navbar-expand-lg border-bottom" style={{background:"#FFF"}}>
                 <div class="container">
                     <Link class="navbar-brand" to="/">
-                        <img src={`${process.env.PUBLIC_URL}Media/logo.svg`} style={{width:"20%"}} alt='Logo'/>
+                        <img src={`${process.env.PUBLIC_URL}/Media/logo.svg`} style={{width:"20%"}} alt='Logo'/>
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

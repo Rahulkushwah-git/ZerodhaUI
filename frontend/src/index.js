@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter , Routes , Route } from "react-router-dom";
+import { HashRouter , Routes , Route } from "react-router-dom";
 import './index.css';
 import HomePage from './landing_page/home_page/HomePage';
 import Signup from './landing_page/signup_page/Signup';
@@ -15,7 +15,7 @@ import NotFound from './landing_page/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
   <UpNavbar/>
   <Routes>
     <Route path='/' element={<HomePage/>}/>
@@ -27,5 +27,5 @@ root.render(
     <Route path='*' element={<NotFound/>}/>
   </Routes>
   <Footer/>
-  </BrowserRouter>
+  </HashRouter>
 );

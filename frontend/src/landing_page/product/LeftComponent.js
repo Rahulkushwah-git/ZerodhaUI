@@ -1,28 +1,122 @@
 import React from 'react';
 
-function LeftComponent({ imageURL, productName, productDescription, tryDemo, learnMore, coin, kiteConnect, googlePlay, appleStore, }) {
+function LeftComponent() {
     return (
         <div className='container'>
             <div className='row'>
-                <div className='col-1'></div>
-                <div className='col-5 p-3'>
-                    <img src={`${process.env.PUBLIC_URL}imageURL`} alt="image" />
+                <div className='col-1 mb-5 p-5 text-centter'></div>
+                <div className='col-5 mb-5 text-center'>
+                    <img src={`${process.env.PUBLIC_URL}/Media/signup.svg`} alt='Sign-up illustration' />
                 </div>
                 <div className='col-1'></div>
-                <div className='col-4 p-5 mb-5 mt-5'>
-                    <h1 className='mb-5'>{productName}</h1>
-                    <p className='mb-5'>{productDescription}</p>
-                    <div>
-                        <a href={tryDemo} style={{textDecoration:"none" , marginRight:"20%"}}>Try demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        <a href={learnMore} style={{textDecoration:"none" , marginLeft:"20%"}}>Learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <div className='col-4 p-5 mb-5'>
+                    <h2>Kite</h2>
+                    <p>Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices.</p>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <a href='' style={{ textDecoration: "none" }}>Try demo </a>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </div>
+                        <div className='col-6'>
+                            <a href='' style={{ textDecoration: "none" }}>Learn more </a>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </div>
                     </div>
-                    <div>
-                        <a href={coin} style={{textDecoration:"none" , marginRight:"20%"}}>Coin <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        <a href={googlePlay} style={{textDecoration:"none" , marginRight:"10%"}}><img src={`${process.env.PUBLIC_URL}Media/googlePlayBadge.svg`} alt="image" /></a>
-                        <a href={appleStore} style={{textDecoration:"none" , marginLeft:"10%"}}><img src={`${process.env.PUBLIC_URL}Media/appstoreBadge.svg`} alt="image" /></a>
+                    <div className='row mt-4'>
+                        <div className='col-6 '>
+                            <img src={`${process.env.PUBLIC_URL}/Media/googlePlayBadge.svg`} alt='Sign-up illustration' />
+                        </div>
+                        <div className='col-6'>
+                            <img src={`${process.env.PUBLIC_URL}/Media/appstoreBadge.svg`} alt='Sign-up illustration' />
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div className='row'>
+                <div className='col-1 mb-5 p-5 text-centter'></div>
+                <div className='col-4 p-5 mb-5'>
+                    <h2>Console</h2>
+                    <p>The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations.</p>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <a href='' style={{textDecoration: "none"}}>Learn more </a>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                </div>
                 <div className='col-1'></div>
+                <div className='col-5 mb-5 text-center'>
+                    <img src={`${process.env.PUBLIC_URL}/Media/console.png`} alt='Sign-up illustration' />
+                </div>
+                </div>
+
+            <div className='row'>
+                <div className='col-1 mb-5 p-5 text-centter'></div>
+                <div className='col-5 mb-5 text-center'>
+                    <img src={`${process.env.PUBLIC_URL}/Media/coin.png`} alt='Sign-up illustration' />
+                </div>
+                <div className='col-1'></div>
+                <div className='col-4 p-5 mb-5'>
+                    <h2>Coin</h2>
+                    <p>Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices.</p>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <a href='' style={{ textDecoration: "none" }}>Coin </a>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div className='row mt-4'>
+                        <div className='col-6 '>
+                            <img src={`${process.env.PUBLIC_URL}/Media/googlePlayBadge.svg`} alt='Sign-up illustration' />
+                        </div>
+                        <div className='col-6'>
+                            <img src={`${process.env.PUBLIC_URL}/Media/appstoreBadge.svg`} alt='Sign-up illustration' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col-1 mb-5 p-5 text-centter'></div>
+                <div className='col-4 p-5 mb-5'>
+                    <h2>Kite Connect API</h2>
+                    <p>Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase.</p>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <a href='' style={{textDecoration: "none"}}>Kite Connect </a>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className='col-1'></div>
+                <div className='col-5 mb-5 text-center'>
+                    <img src={`${process.env.PUBLIC_URL}/Media/kiteconnect.png`} alt='Sign-up illustration' />
+                </div>
+                </div>
+
+
+
+            <div className='row'>
+                <div className='col-1 mb-5 p-5 text-centter'></div>
+                <div className='col-5 mb-5 text-center'>
+                    <img src={`${process.env.PUBLIC_URL}/Media/varsity.png`} alt='Sign-up illustration' />
+                </div>
+                <div className='col-1'></div>
+                <div className='col-4 p-5 mb-5'>
+                    <h2>Varsity mobile</h2>
+                    <p>An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go.</p>
+                    <div className='row mt-4'>
+                        <div className='col-6 '>
+                            <img src={`${process.env.PUBLIC_URL}/Media/googlePlayBadge.svg`} alt='Sign-up illustration' />
+                        </div>
+                        <div className='col-6'>
+                            <img src={`${process.env.PUBLIC_URL}/Media/appstoreBadge.svg`} alt='Sign-up illustration' />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
