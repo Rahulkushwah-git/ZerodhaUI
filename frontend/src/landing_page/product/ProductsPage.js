@@ -11,8 +11,8 @@ function ProductsPage() {
         <>
         
         <Hero/>
-        <LeftComponent  />
-        <RightComponents />
+        <LeftComponent/>
+        <RightComponents/>
         <Universe/>
         
         </>

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function LeftComponent() {
     return (
         <div className='container'>
@@ -15,11 +16,11 @@ function LeftComponent() {
                     <div className='row'>
                         <div className='col-6'>
                             <a href='' style={{ textDecoration: "none" }}>Try demo </a>
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                         <div className='col-6'>
                             <a href='' style={{ textDecoration: "none" }}>Learn more </a>
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div className='row mt-4'>
@@ -41,7 +42,7 @@ function LeftComponent() {
                     <div className='row'>
                         <div className='col-6'>
                             <a href='' style={{textDecoration: "none"}}>Learn more </a>
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                     </div>
                     
@@ -64,7 +65,7 @@ function LeftComponent() {
                     <div className='row'>
                         <div className='col-6'>
                             <a href='' style={{ textDecoration: "none" }}>Coin </a>
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div className='row mt-4'>
@@ -86,7 +87,7 @@ function LeftComponent() {
                     <div className='row'>
                         <div className='col-6'>
                             <a href='' style={{textDecoration: "none"}}>Kite Connect </a>
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                     </div>
                     
