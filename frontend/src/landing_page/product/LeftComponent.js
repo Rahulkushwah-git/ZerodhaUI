@@ -15,7 +15,7 @@ function LeftComponent() {
                     <p>Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices.</p>
                     <div className='row'>
                         <div className='col-6'>
-                            <a href='' style={{ textDecoration: "none" }}>Try demo </a>
+                            <a href="https://<username>.github.io/zerodhaUI-dashboard" style={{ textDecoration: "none" }}>Try demo </a>
                             <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
                         </div>
                         <div className='col-6'>

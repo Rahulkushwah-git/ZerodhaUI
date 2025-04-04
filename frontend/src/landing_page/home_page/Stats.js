@@ -18,7 +18,7 @@ function Stats() {
                 <div className='col-6 p-5 mb-5'>
                     <img src={`${process.env.PUBLIC_URL}/Media/ecosystem.png`} alt="image" style={{width:"90%"}}/>
                     <div className='text-center'>
-                        <a className='mx-4' href='https://rahulkushwah-git.github.io/product'>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a className='mx-4' href='/product'>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                         <a className='mx-4' href=''>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
